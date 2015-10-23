@@ -1406,6 +1406,7 @@
 				6E90B1F41B33F195003DC711 /* Frameworks */,
 				6E90B1F51B33F195003DC711 /* Resources */,
 				E73921B2DFC7485AD13A3537 /* Copy Pods Resources */,
+				66CBFF4C37F4AA035E8198B6 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1504,6 +1505,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		66CBFF4C37F4AA035E8198B6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E73921B2DFC7485AD13A3537 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1788,6 +1804,7 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhenquan Gao (6A84TJ66E4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhenquan Gao (6A84TJ66E4)";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MusicSound/Classses/Lib/umeng_ios_social_sdk_4.2-2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -1818,6 +1835,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhenquan Gao (6A84TJ66E4)";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MusicSound/Classses/Lib/umeng_ios_social_sdk_4.2-2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
